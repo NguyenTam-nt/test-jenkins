@@ -3,10 +3,8 @@ pipeline {
 	stages {
 		stage('Clone') {
 			steps {
-				get 'https://github.com/NguyenTam-nt/test-jenkins.git'
-			
-			}
-		
+				get 'https://github.com/NguyenTam-nt/test-jenkins.git'	
+			}	
 		}
     }
 }
